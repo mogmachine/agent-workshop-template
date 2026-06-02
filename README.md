@@ -50,7 +50,7 @@ openclaw doctor   # all green before continuing
 
 ```bash
 cd /opt
-sudo git clone https://github.com/taostat/agent-workshop-template.git
+sudo git clone https://github.com/mogmachine/agent-workshop-template.git
 cd agent-workshop-template
 cp .env.example .env
 $EDITOR .env   # fill in S3_*, QDRANT_URL, WORKSPACE
