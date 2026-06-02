@@ -1,0 +1,13 @@
+# Secrets live here, never in the repo.
+.env
+secrets/
+*.key
+*.pem
+
+# Cache + state
+__pycache__/
+*.pyc
+.cache/
+state/
+/tmp/
+.DS_Store

@@ -1,0 +1,9 @@
+# Hourly Obsidian vault sync.
+#
+# Install (as the user that owns the workspace):
+#   crontab -e
+#   # paste the line below, adjusted for your repo path
+#
+# 0 * * * * /home/you/agent-workshop-template/scripts/obsidian-sync.sh >> /home/you/.cache/obsidian-sync.log 2>&1
+
+0 * * * * /opt/agent-workshop-template/scripts/obsidian-sync.sh >> $HOME/.cache/obsidian-sync.log 2>&1
